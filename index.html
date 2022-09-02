@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendiendo HTML</title> <!-- entre 55 y 65 caracteres -->
+  <meta name="description" content="En esta página aprenderemos los fundamentos de HTML con @jonmircha"> <!-- no más de 165 caracteres -->
+  <link rel="canonical" href="http://tudominio.com/la-url-canonica">
+  <link rel="icon" href="./img/HTML5.png"> <!-- el favicon debe ser un cuadrado perfecto, de preferencia 1024x2 y en png-->
+  <link rel="apple-touch-icon" href="./img/HTML5.png">
+  <meta name="theme-color" content="#FF6600">
+  <meta property="og:title" content="Aprendiendo HTML">
+  <meta property="og:descrription" content="En esta página estamos aprendiendo los fundamentos de HTML">
+  <meta property="og:image" content="https://tudominio.com/img/html5.png">
+  <meta property="og:url" content="https://tudominio.com/index.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@ChrisCasanaInc">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h2 id="inicio">Aprendiendo HTML</h2>
+  <p>Hola escribiendo mi primer documento HTML</p>
+  <p>Aprendiendo sobre Diseño Web</p>
+  <h3>Temario del Curso</h3>
+  <ul>
+    <li><a href="./index.html#encabezados">Encabezados HTML</a></li>
+    <li><a href="./index.html#textos-basicos">Etiquetas de Texto Básicas</a></li>
+    <li><a href="./index.html#textos-semanticos">Etiquetas de Texto Semánticas</a></li>
+    <li><a href="./index.html#etiquetas-saltos">Etiquetas de Saltos</a></li>
+    <li><a href="./index.html#etiquetas-formateo">Etiquetas de formateo</a></li>
+    <li><a href="./index.html#etiquetas-semanticas-estructurales">Etiquetas Semánticas Estructurales</a></li>
+    <li><a href="./index.html#etiquetas-bloque-linea">Etiquetas de Bloque vs Etiquetas de Línea</a></li>
+    <li><a href="./index.html#estilos-css">Estilos CSS en HTML</a></li>
+    <li><a href="./index.html#scripts-html">Scripts en HTML</a></li>
+    <li><a href="./index.html#imagenes">Imágenes</a></li>
+    <li><a href="./index.html#svg">SVG</a></li>
+    <li><a href="./index.html#figuras">Figuras</a></li>
+    <li><a href="./index.html#listas-ordenadas">Listas Ordenadas</a></li>
+    <li><a href="./index.html#listas-desordenadas">Listas Desordenadas</a></li>
+    <li><a href="./index.html#listas-definicion">Listas de Definición</a></li>
+    <li><a href="./index.html#tablas">Tablas</a></li>
+    <li><a href="./index.html#enlaces">Enlaces</a></li>
+    <li><a href="./index.html#elementos-interactivos">Elementos Interactivos</a></li>
+    <li><a href="./index.html#audio-video">Audio y Video</a></li>
+    <li><a href="./index.html#iframes">Iframes</a></li>
+    <li><a href="./index.html#formularios">Formularios</a></li>
+    <li><a href="./index.html#data-atributes">Data Atributes</a></li>
+    <li><a href="./index.html#metas-seo">Metaetiquetas para SEO y móviles</a></li>
+    <li><a href="./index.html#metas-social">Metaetiquetas para Redes Sociales</a></li>
+    <li><a href="./index.html#accesibilidad-web">Accesibilidad Web</a></li>
+  </ul>
+  <hr>
+  <h2 id="encabezados">Encabezados HTML</h2>
+  <h1>Encabezado de nivel 1</h1> <!-- sólo puede existir un elemento h1 por documento html -->
+  <h2>Encabezado de nivel 2</h2>
+  <h3>Encabezado de nivel 3</h3>
+  <h4>Encabezado de nivel 4</h4>
+  <h5>Encabezado de nivel 5</h5>
+  <h6>Encabezado de nivel 6</h6>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="textos-basicos">Etiquetas de Texto Básicas</h2>
+  <p>Un párrafo</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis,
+   corrupti enim laudantium numquam ullam! Repellat inventore deserunt autem iure veritatis quos quia earum magnam? 
+   Magnam odit repellendus similique impedit.</p>
+  <p>
+   Palabras en: <b>negrita</b>, <i>itálica</i>, <u>subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O, <small>letras pequeñas</small>,
+   <mark>marca textos</mark>
+  </p>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="textos-semanticos">Etiquetas de Texto Semánticas</h2>
+  <p>
+    <strong>Este texto es importante</strong>, <em>Este texto hace énfasis</em>
+  </p>
+  <blockquote>Yo solo sé, que no se nada</blockquote>
+  <cite>Sócrates</cite>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>  
+  <h2 id="etiquetas-saltos">Etiquetas de Saltos</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Debitis, 
+    possimus similique laboriosam accusantium sapiente voluptate reprehenderit 
+    molestias veritatis maiores quas commodi non perspiciatis rerum sed natus, <br>maxime tempora totam unde?</p>
+    <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="etiquetas-formateo">Etiquetas de formateo</h2>
+  <p>
+    <pre>
+       Tareas por Hacer
+        -HTML
+          -Terminar de grabar las secciones de este curso.
+          -Editar en un sólo video.
+        -CSS
+          -Comenzar a grabar secciones CSS
+          -Editar en un solo videos
+    </pre>
+  </p>
+  <p>
+    <code>Este texto está en formato de código</code>
+  </p>
+  <p>
+    <pre>
+       <code>
+         import React from "react";
+         import Title from "./Title";
+          
+         function App (
+         return &lt;Title/&gt;
+         )
+       </code>
+    </pre>
+  </p>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="etiquetas-semanticas-estructurales">Etiquetas Semánticas Estructurales</h2>
+  <div>Es una etiqueta contenedora que no tiene semántica</div>
+  <header>header - cabecera de un sitio web o de una sección</header>
+  <main>main - Define la sección principal, sólo puede existir una etiqueta main por documentos</main>
+  <footer>footer - Pie de página de un sitio web o de una sección</footer>
+  <nav> nav - Representa una navegación</nav>
+  <article> 
+    article - Repressenta una sección autocontenido (que por si sola se explica)
+  </article>
+  <aside>asiide - Representa un contenido complementario o secundario</aside>
+  <section>section - Representa una sección de contenido genérico</section>
+  <address>address - Representa una información de contacto</address>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="etiquetas-bloque-linea">Etiquetas de Bloque vs Etiquetas de Línea</h2>
+  <div style="background-color: aqua;">La etiqueta de blolque por excelencia es la div, una etiqueta de bloque es aquella
+    que genera saltos de línea con sus etiquetas hermanas</div>
+  <span style="background-color: blueviolet">La etiqueta de línea por excelencia es la span, una etiqueta de línea sólo ocupa el espacio necesario
+    que tiene su contenido</span>
+  <span>Hola soy otra span</span>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="estilos-css">Estilos CSS en HTML</h2>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="scripts-html">Scripts en HTML</h2>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="imagenes">Imágenes</h2>
+  <img src="./img/Periodictable-html.jpg" alt="Tabla Peródica de los Elementos HTML">
+  <img src="./img/Binance.png" alt="Binance">
+  <img src="./img/Camp-Nou.gif" alt="Camp-Nou">
+  <img src="./img/cat-face.svg" alt="Cat-face">
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="svg">SVG</h2>
+  <svg width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet"><path d="M41.94 80.79s-4.22 7.41-5.54 12.86c-1.31 5.44-.59 7.57.84 12.01c1.64 5.07 3.63 9.19 7.46 6.76c3.1-1.97 3.43-6.71 2.96-8.59c-.47-1.88-.89-4.5-.7-5.63c.19-1.13 2.3-6.24 3.99-8.68c1.69-2.44 1.69-6.01 1.41-6.29c-.29-.28-10.42-2.44-10.42-2.44z" fill="#4d4d4d"></path><path d="M51.75 117.35s-1.2 6.62-.56 6.62c.63 0 5.07-.21 6.62-1.27c1.55-1.06 2.94-4.65 4.22-8.73c1.55-4.93 3.71-11.25 4.22-12.81c.94-2.86 1.97-5.77 1.97-5.77s4.78-.43 7.74-.56c4.72-.21 8-.43 8.73.07c.92.63 5.15 3.48 6.19 5c1.55 2.25-3.8 12.81-3.8 12.81s-3.8 3.38-3.66 5.28c.14 1.9 3.8 1.69 7.04 1.55c3.24-.14 4.97-1.06 5.42-1.55c1.69-1.83 3.45-6.83 4.58-10.91c1.08-3.91 2.53-6.34 2.11-8.87c-.42-2.53-13.23-13.37-13.23-13.37l-31.46 7.6l-6.13 24.91z" fill="#4d4d4d"></path><path d="M34.02 29.16l16.52-6.66s-1.6-4.22-3.66-7.88s-6.66-10.51-8.82-9.95c-2.16.56-4.42 11-4.93 13.8c-1.04 5.71.89 10.69.89 10.69z" fill="#4d4d4d"></path><path d="M18.72 43.75c-.03 0-3.42 0-5.73-.07c-2.32-.07-4.48-.14-4.48-.14s-1.07-.03-1.07-1.08c0-1.06 1.11-1.01 1.11-1.01s2.17.07 4.5.14c2.28.07 5.64.07 5.67.07c.58 0 1.05.47 1.05 1.05s-.47 1.04-1.05 1.04z" fill="#b0b1b2"></path><path d="M8.57 50.1s-.99.27-1.21-.81c-.22-1.09.76-1.24.76-1.24s2.87-.85 4.85-1.27c1.96-.42 6.04-1.19 6.08-1.2c.57-.11 1.12.27 1.23.84c.11.57-.27 1.12-.84 1.23c-.04.01-4.09.78-6.03 1.19c-1.97.41-4.84 1.26-4.84 1.26z" fill="#b0b1b2"></path><path d="M13.42 55.51c-.34 0-.67-.17-.88-.47a1.06 1.06 0 0 1 .29-1.46l5.48-4.29a1.06 1.06 0 0 1 1.46.29c.32.48.19 1.13-.29 1.46l-5.14 4.05c-.18.12-.72.42-.92.42z" fill="#b0b1b2"></path><path d="M36.54 67.37c0 .84.59 7.08 1.27 11.54c.7 4.65 2.82 8.17 7.04 10.98c5.07 3.38 9.57 3.94 9.57 3.94s-1.55 9.57-3.66 15.91c-.38 1.15-2.67 5.84-3.17 6.62s-1.83 3.03-1.62 4.65c.23 1.76 1.55 3.8 7.18 2.67c4.56-.91 5-5.51 6.34-9.24c.5-1.4 3.61-10.04 4.22-12.06c1.35-4.47 2.11-7.48 2.82-8.26c.7-.77 8.17-1.13 12.81-1.41c4.65-.28 12.11-.42 12.11-.42s3.17 2.6 6.69 4.22c5.48 2.52 10.63 3.24 13.02 6.48c2.31 3.12 1.93 6.13 1.41 8.66c-.84 4.08-2.38 6.33-2.11 7.81c.35 1.97 2.25 2.18 6.19 2.25c3.81.07 4.55-.69 5.28-2.53c2.89-7.3-1.76-16.75-2.11-23.02c-.17-2.97-4.86-3.8-5.91-8.17c-1.06-4.36-1.38-8.8-2.65-13.16c-1.38-4.76-3.1-8.78-3.1-8.78s4.9-2.98 7.93-6.29c3.03-3.31 7.35-7.7 5.58-16.38c-1.41-6.9-6.01-11.5-16.92-14.95c-10.79-3.41-12.99.55-13.3 3.14c-.42 3.52 4.08 4.74 8.87 5.65s13.96 3.83 11.26 11.83c-1.69 5-9.15 8.05-9.15 8.05s-7.18-1.08-16.89-.02c-7.84.87-11.56 2.92-12.4 2.55c-1.27-.56-.42-2.39.92-4.5c2.12-3.35 4.72-7.74 4.72-13.23s-2.6-8.45-2.6-8.45s-.07-10.77-1.62-16.89s-4.44-13.24-7.47-13.38c-3.03-.14-8.38 7.25-9.78 9.57s-3.73 7.11-3.73 7.11s-8.2-.99-15.06 2.32c-6.02 2.9-9.71 11.97-11.54 12.67c-1.83.7-6.15.54-7.84 3.36c-.7 1.16-.77 8.89-.77 8.89s.53 1.83 1.09 3.43c.44 1.25 2.72 4.6 5.46 6.61c3.56 2.61 8.32 6.3 9.37 7.14c1.05.84 2.25 3.09 2.25 3.09z" fill="#5d6265"></path><path d="M57.24 24.22c.07 1.48 3.45 3.45 5.21 4.72c1.76 1.27 4.29 4.05 5.28 3.87c1.75-.31 1.62-7.74 1.27-11.05c-.35-3.31-2.11-8.8-3.24-9.22c-1.13-.42-4.05 3.79-4.79 4.93c-1.27 1.97-3.8 5.42-3.73 6.75z" fill="#ffab93"></path><path d="M21.63 44.61c.47-.56 7.57-2.44 7.8-3.71s-1.45-2.3-4.41-3c-2.66-.63-5.09-.38-5.69.05c-.8.56-1.69 3.43-1.45 6.34c.24 3.01 1.26 5.47 2.58 6.8c.92.93 3.16 2.39 5.13 2.53c1.97.14 3.8-.7 4.79-1.69s.28-2.58-1.22-1.69c-1.5.89-2.5 1.16-3.8.8c-1.36-.38-3.31-1.71-3.72-3.89c-.26-1.3-.01-2.54-.01-2.54z" fill="#2f2f2f"></path><path d="M51.12 53.64c-.16 0-.32-.04-.47-.11c-.03-.01-2.81-1.42-5.22-2.13c-2.48-.73-4.8-1.29-4.83-1.3c-.56-.14-.91-.7-.78-1.27c.14-.56.7-.91 1.27-.78c.02.01 2.4.58 4.93 1.33c2.6.77 5.45 2.22 5.57 2.28a1.046 1.046 0 0 1-.47 1.98z" fill="#b0b1b2"></path><path d="M50.04 60.87c-.22 0-.44-.07-.62-.21c-.03-.02-3.25-2.4-5.32-3.83c-2.01-1.38-4.79-2.67-4.82-2.68a1.05 1.05 0 0 1 .87-1.91c.12.06 2.97 1.37 5.13 2.86c2.1 1.45 5.35 3.84 5.38 3.87c.47.34.56 1 .22 1.47c-.2.28-.52.43-.84.43z" fill="#b0b1b2"></path><path d="M45.07 64.53c-.25 0-.5-.09-.7-.27l-6.94-6.19c-.43-.39-.47-1.05-.08-1.48c.39-.43 1.05-.47 1.48-.08l6.94 6.19a1.05 1.05 0 0 1-.7 1.83z" fill="#b0b1b2"></path><ellipse transform="rotate(-60 41.931 38.703)" cx="41.93" cy="38.7" rx="4.76" ry="3.75" fill="#010000"></ellipse><path d="M41.61 37.99c-.55 1.03-1.51 1.69-2.3 1.2c-.79-.49-.34-2.06.1-2.65c.44-.59 1.23-1.33 2.01-.84c.8.5.56 1.61.19 2.29z" fill="#dedede"></path></svg>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="figuras">Figuras</h2>  
+  <figure>
+    <img src="./img/Periodictable-html.jpg" alt="Tabla de los Elementos HTML">
+    <figcaption>Tabla de los Elementos HTML</figcaption>
+  </figure>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="listas-ordenadas">Listas Ordenadas</h2>
+  <h3>Las estaciones del Año</h3>
+  <ol>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <ol start="3">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <ol reversed>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <ol type="I">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="listas-desordenadas">Listas Desordenadas</h2>
+  <h3>Cosas por hacer</h3>
+  <ul>
+    <li>Terminar de grabar los fragmentos del curso de HTML</li>
+    <li>Editar el video final</li>
+    <li>Subirlo a Youtub</li>
+  </ul>
+  <ul type="circle">
+    <li>Terminar de grabar los fragmentos del curso de HTML</li>
+    <li>Editar el video final</li>
+    <li>Subirlo a Youtub</li>
+  </ul>
+  <ul type="square">
+    <li>Terminar de grabar los fragmentos del curso de HTML</li>
+    <li>Editar el video final</li>
+    <li>Subirlo a Youtub</li>
+  </ul>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="listas-definicion">Listas de Definición</h2>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Es un lenguaje de maarcado que define el contenido de la web</dd>
+    <dt>CSs</dt>
+    <dd>Es un lenguaje de definnición  que da estilos al código HTML</dd>
+    <dt>JavaScipt</dt>
+    <dd>Es el lenguaje de la web</dd>
+  </dl>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="tablas">Tablas</h2>
+  <table>
+    <tr>
+      <td>Nombre</td>
+      <td>Constelación</td>
+      <td>Tipo</td>
+    </tr>
+    <tr>
+      <td>Ikki</td>
+      <td>Fénix</td>
+      <td>Bronce</td>
+    </tr>
+    <tr>
+      <td>Shina</td>
+      <td>Ofiuco</td>
+      <td>Plata</td>
+    </tr>
+    <tr>
+      <td>Saga</td>
+      <td>Géminis</td>
+      <td>Dorado</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Tabla de los Santos de Athena</th>
+      </tr>
+      <tr>
+        <th>Nombre</th>
+        <th>Constelación</th>
+        <th>Tipo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ikki</td>
+        <td>Fénix</td>
+        <td>Bronce</td>
+      </tr>
+      <tr>
+        <td>Mistry</td>
+        <td>Lagarto</td>
+        <td>Plata</td>
+      </tr>
+      <tr>
+        <td>Saga</td>
+        <td>Géminis</td>
+        <td>Dorado</td>
+      </tr>
+      <tr>
+        <td>Shaina</td>
+        <td rowspan="2">Ofiuco</td>
+        <td>Plata</td>
+      </tr>
+      <tr>
+        <td>Odiseo</td>
+        <td>Dorado</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="3"><small>Saint Seiya fue creado por el maestro Masami Kurumada</small></th>
+      </tr>
+    </tfoot>
+  </table>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="enlaces">Enlaces</h2>
+  <a href="./hola.html">Hacia la página Hola</a>
+  <br>
+  <a href="https://tradingview.com" target="_blank" rel="nofollow">Visitando TradingView</a>
+  <br>
+  <a href="https://binance.com" target="_blank"><img src="./img/cat-face.svg" alt="Ir hacia Binance"></a>
+  <br>
+  <a href="mailto:inciochristian@gmail.com">Enlace a correo electrónico</a>
+  <br>
+  <a href="tel:51931751930">Enlace a teléfono</a>
+  <br>
+  <a href="https://api.whatsapp.com/send?phone=51931751930&text=Hola" target="_blank">Enlace hacia WhatsApp</a>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="elementos-interactivos">Elementos Interactivos</h2>
+  <button onclick="alert('Hola haz clickeado un botón')">Este es un botón</button>
+  <br>
+  <details>
+    <summary>Título del Acordeón</summary>
+    <article>
+      <h3>Contenido del Acordeón</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet molestiae illum harum cupiditate fugit voluptatibus nemo, 
+        nobis facilis aliquam? Ea facilis et voluptatem rerum dolores ullam atque eum quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet molestiae illum harum cupiditate fugit voluptatibus nemo, 
+        nobis facilis aliquam? Ea facilis et voluptatem rerum dolores ullam atque eum quia.</p>
+        <img src="./img/Camp-Nou.gif" alt="Camp-Nou">
+    </article>
+  </details>
+  <br>
+  <details open>
+    <summary>Título del Acordeón</summary>
+    <article>
+      <h3>Contenido del Acordeón</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet molestiae illum harum cupiditate fugit voluptatibus nemo, 
+        nobis facilis aliquam? Ea facilis et voluptatem rerum dolores ullam atque eum quia.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet molestiae illum harum cupiditate fugit voluptatibus nemo, 
+        nobis facilis aliquam? Ea facilis et voluptatem rerum dolores ullam atque eum quia.</p>
+        <img src="./img/Camp-Nou.gif" alt="Camp-Nou">
+    </article>
+  </details>
+  <dialog open>
+    Esto es una ventana modal en HTML
+  </dialog>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="audio-video">Audio y Video</h2>
+  <audio src="./media/amarte-hasta-la-muerte.mp3" controls preload></audio>
+  <br>
+  <!-- -controls
+  -preload
+  -autoplay
+  -loop
+  -muted -->
+  <video src="./media/burbujas-amor.mp4" controls preload poster="./img/Periodictable-html.jpg"></video>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="iframes">Iframes</h2>
+  <iframe src="./hola.html" frameborder="1"></iframe>
+  <br>
+  <iframe src="https://netlify.com" frameborder="1"></iframe>
+  <br>
+  <iframe src="./media/keyboard-shortcuts.pdf" frameborder="1"></iframe>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3791940527744!2d-76.89180348578712!3d-12.086172645924089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c0e5c93645cd%3A0xd026b2167785bb55!2sParque%20Central%20Musa!5e0!3m2!1ses-419!2spe!4v1662005759130!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PLTe6kgjOTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="formularios">Formularios</h2>
+  <h3>Elementos de Formularios</h3>
+  <input type="text">
+  <br>
+  <input type="checkbox">
+  <br>
+  <input type="radio">
+  <br>
+  <input type="date">
+  <br>
+  <input type="color">
+  <br>
+  <input type="button" value="Botón">
+  <br>
+  <input type="submit">
+  <br>
+  <input type="reset">
+  <br>
+  <input type="file">
+  <br>
+  <input type="file" multiple>
+  <br>
+  <input type="hidden" name="idioma" value="es">
+  <br>
+  <input type="email">
+  <br>
+  <input type="number">
+  <br>
+  <input type="tel">
+  <br>
+  <input type="password">
+  <br>
+  <input type="search">
+  <br>
+  <textarea cols="50" rows="5"></textarea>
+  <br>
+  <select name="" id="">
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">JS</option>
+    <option value="">PHP</option>
+    <option value="">Phyton</option>
+  </select>
+  <select name="" id="" multiple>
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">JS</option>
+    <option value="">PHP</option>
+    <option value="">Phyton</option>
+  </select>
+  <br>
+  <input type="text" value="ChristianCasaña" readonly disabled>
+  <br>
+  <input type="text" placeholder="Escribe tu nombre">
+  <br>
+  <h3>Ejemplo de Formulario</h3>
+  <h4>Formulario de Login</h4>
+  <form action="https://www.facebook.com/Christian.CasanaIncio" method="POST" autocomplete="off"> <!-- method="GET" es el predeterminado -->
+    <label for="usuario">Usuario:</label>
+    <input type="text" name="usuario" id="usuario" placeholder="Escribe tu usuario" pattern="^[A-Za-z]+$" title="El campo solo acepta letras" required>
+    <br>
+    <!-- <input type="text" name="email" autocomplete="off"> --> <!-- se puede colocar el off de forma independiente -->
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="Escribe tu contraseña" required>
+    <br>
+    <input type="submit" >
+    <br>
+    <input type="reset">
+  </form>
+  <h4>Selects, Radios y Checkbox</h4>
+  <form> <!-- cuando envias un form sin action se envia a la misma página -->
+    <p>Elige tu idioma</p>
+    <select name="idioma" id="" required>
+      <option value="" selected disable hidden>Elige una opción</option>
+      <option value="es">Español</option> <!-- con selected puedes establecer el nombre de la lista que selecciones por defecto -->
+      <option value="en">Inglés</option>
+      <option value="fr">Francés</option>
+      <option value="it">Italiano</option>
+      <option value="pt">Portugués</option>
+    </select>
+    <p>Elige tu lenguaje de programación favorito:</p>
+    <input type="radio" name="lenguaje" id="radio-js" value="js" required checked> <!-- si colocas required a uno automatico es para todos -->
+    <label for="radio-js">JavaScript</label>
+    <input type="radio" name="lenguaje" id="radio-py" value="py">
+    <label for="radio-py">Phyton</label>
+    <input type="radio" name="lenguaje" id="radio-php" value="php">
+    <label for="radio-php">PHP</label>
+    <p>Elige tus intereses:</p>
+    <label>
+      <input type="checkbox" name="intereses-deportes" value="deportes" checked>
+      Deportes
+    </label>
+    <label>
+      <input type="checkbox" name="intereses-finanzas" value="Finanzas">
+      Finanzas
+    </label>
+    <label>
+      <input type="checkbox" name="intereses" value="salud">
+      Salud
+    </label>
+    <label>
+      <input type="checkbox" name="intereses" value="politica">
+      Política
+    </label>
+    <label>
+      <input type="checkbox" name="intereses" value="ecologia">
+      Ecologia
+    </label>
+    <p>
+      <label>
+        <input type="checkbox" name="terminos" required>
+        ¿Aceptas términos y condiciones?
+      </label>
+    </p>
+    <input type="submit"><input type="reset">
+  </form>
+  <h4>Formulario de Contacto</h4>
+  <form action="https://formsubmit.co/inciochristian@gmail.com" method="POST">
+    <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre sólo acepta letras y espacios en blanco" required>
+    <br>
+    <input type="email" name="correo" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Formato de correo válido" required>
+    <br>
+    <textarea name="comentarios" cols="30" rows="10" required></textarea>
+    <br>
+    <input type="submit">
+  </form>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="data-atributes">Data Atributes</h2>
+  <ul>
+    <li data-id="1" data-name="spring">Primavera</li>
+    <li data-id="2" data-name="summer">Verano</li>
+    <li data-id="3" data-name="autumn">Otoño</li>
+    <li data-id="4" data-name="wintern">Invierno</li>
+  </ul>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="metas-seo">Metaetiquetas para SEO y móviles</h2>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="metas-social">Metaetiquetas para Redes Sociales</h2>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="accesibilidad-web">Accesibilidad Web</h2>
+  <h3 role="title">Las Estaciones del Año</h3>
+  <ul role="list">
+    <li tabindex="1" role="listitem">Primavera</li>
+    <li tabindex="2" role="listitem">Verano</li>
+    <li tabindex="3" role="listitem">Otoño</li>
+    <li tabindex="4" role="listitem">Invierno</li>
+  </ul>
+  <a role="link" aria-label="En este enlace encontrarás más información sobre las estaciones del año" href="#" target="_blank">Más información ...</a>
+  <br>
+  <a href="./index.html#inicio">☝️</a>
+  <hr>
+  <script>
+    console.log("Hola estamos aprendiendo HTML");
+  </script>
+  <script src="./codigos.js"></script>
+</body>
+</html>
